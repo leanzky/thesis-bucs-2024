@@ -26,40 +26,20 @@ To run the code in this repository, follow these steps:
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/thesis-repo.git
-    cd thesis-repo
+    git clone https://github.com/leanzky/thesis-bucs-2024.git
+    cd thesis-bucs-2024
     ```
-
-2. Create a virtual environment:
-    ```sh
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-    ```
-
+2. Create a virtual environment (use miniconda3):
 3. Install the required dependencies:
-    ```sh
-    pip install -r requirements.txt
-    ```
 
 ## Usage
 
-1. **Training GAN**: Use the scripts in the `gan` directory to train your GAN model. You can modify the parameters in the configuration file to fit your specific requirements.
+1. **Training GAN**: Use the script in fsgan.ipynb in Google Collab.
 
     ```sh
     python gan/train_gan.py --config gan/config.yaml
     ```
-
-2. **Generating Images**: After training the GAN, generate synthetic images using the trained model.
-
-    ```sh
-    python gan/generate_images.py --model gan/model.h5 --output generated_images/
-    ```
-
-3. **Classification with YOLOv8**: Use the YOLOv8 scripts to classify images, including both original and generated images.
-
-    ```sh
-    python yolov8/classify.py --images dataset/images/ --output results/
-    ```
+2. **Classification with YOLOv8**: Use the predict.py and configure everything base on the comments.
 
 ## Acknowledgements
 
