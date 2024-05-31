@@ -20,12 +20,9 @@ This thesis explores the application of Generative Adversarial Networks (GANs) t
 
 ## Technologies Used
 
-- **Python**: Programming language
-- **TensorFlow/Keras**: For building and training GANs
-- **YOLOv8**: For image classification
-- **OpenCV**: For image processing
-- **NumPy**: For numerical operations
-- **Matplotlib**: For data visualization
+- **Python**: 3.8+
+- **GAN Repository(Credits)**: [For building and training GANs](https://github.com/odegeasslbc/FastGAN-pytorch.git)
+- **YOLOv8**: 8.2.7
 
 ## Installation
 
