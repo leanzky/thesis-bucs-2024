@@ -29,21 +29,17 @@ To run the code in this repository, follow these steps:
     git clone https://github.com/leanzky/thesis-bucs-2024.git
     cd thesis-bucs-2024
     ```
-2. Create a virtual environment (use miniconda3):
-3. Install the required dependencies:
+2. Create a virtual environment (use miniconda3).
+3. Install the required dependencies.
 
 ## Usage
 
 1. **Training GAN**: Use the script in fsgan.ipynb in Google Collab.
-
-    ```sh
-    python gan/train_gan.py --config gan/config.yaml
-    ```
 2. **Classification with YOLOv8**: Use the predict.py and configure everything base on the comments.
 
 ## Acknowledgements
 
-I would like to thank the following people for their invaluable support and contributions:
+I would like to thank the following:
 
 - **Leandro Francia (Me)**
 - **Charlene Cortes**
