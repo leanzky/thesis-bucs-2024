@@ -8,10 +8,6 @@ Welcome to my thesis repository for my college years at Bicol University. This r
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Results](#results)
-- [Contributing](#contributing)
-- [License](#license)
 - [Acknowledgements](#acknowledgements)
 
 ## Introduction
@@ -65,5 +61,15 @@ To run the code in this repository, follow these steps:
     python yolov8/classify.py --images dataset/images/ --output results/
     ```
 
-## Project Structure
+## Acknowledgements
+
+I would like to thank the following people for their invaluable support and contributions:
+
+- **Leandro Francia (Me)**
+- **Charlene Cortes**
+- **Kiabelle Bilan**
+
+Additionally, I would like to acknowledge the repository [FastGAN-pytorch](https://github.com/odegeasslbc/FastGAN-pytorch?tab=readme-ov-file) for providing an excellent foundation and resources that were instrumental in the development of this thesis.
+
+I would also like to thank my advisor, professors, and colleagues at Bicol University for their support and guidance throughout this project. Special thanks to the open-source community for providing the tools and frameworks that made this work possible.
 
